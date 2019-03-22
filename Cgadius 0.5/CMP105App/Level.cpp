@@ -7,7 +7,7 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 
 	player.setInput(input);
 	view1.reset(sf::FloatRect(0.f, 0.f, 1200.f, 800.f));
-	boss.loadFromFile("sfx/boss.ogg");
+	music.openFromFile("sfx/boss.ogg");
 	sound.setBuffer(boss);
 	sound.setVolume(35);
 
@@ -85,7 +85,14 @@ void Level::handleInput(float dt)
 {
 	player.handleInput(dt);
 
-
+	if (input->isKeyDown(sf::Keyboard::M))
+	{
+		music.play();
+	}
+	if (input->isKeyDown(sf::Keyboard::N))
+	{
+		music.stop();
+	}
 
 	if (input->isKeyDown(sf::Keyboard::Right) && input->isKeyDown(sf::Keyboard::Space))
 	{

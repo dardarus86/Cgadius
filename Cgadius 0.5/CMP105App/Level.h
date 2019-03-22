@@ -41,6 +41,7 @@ private:
 	//Sound+Music
 	sf::SoundBuffer boss;
 	sf::Sound sound;
+	sf::Music music;
 	//background
 	GameObject background;
 	sf::Texture backgroundtexture;
