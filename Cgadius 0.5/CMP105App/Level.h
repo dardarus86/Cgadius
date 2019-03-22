@@ -11,6 +11,7 @@
 #include "Enemy.h"
 #include "Wall.h"
 #include "Player.h"
+#include <string.h>
 
 #include <string>
 #include <iostream>
@@ -36,6 +37,7 @@ private:
 	//bullet	
 	//View
 	sf::View view1;
+	sf::View scoreview;
 	//Sound+Music
 	sf::SoundBuffer boss;
 	sf::Sound sound;
@@ -49,5 +51,10 @@ private:
 	AsteroidManager asteroidManager;
 	WallManager wallManager;
 	EnemyManager enemyManager;
+	//text
+	sf::Font font;
+	sf::Text score;
+	sf::Text time;
+	sf::Text lives;
 	
 };

@@ -14,6 +14,7 @@ EnemyManager::EnemyManager()
 		Enemygrey[i].setTexture(&Enemygreytexture);
 		Enemygrey[i].setSize(sf::Vector2f(60, 50));
 		Enemygrey[i].setCollisionBox(0, 0, 60, 50);
+		enemygreyhp = 1;
 
 	}
 
@@ -24,7 +25,7 @@ EnemyManager::EnemyManager()
 		Enemygreen[i].setTexture(&Enemygreentexture);
 		Enemygreen[i].setSize(sf::Vector2f(60, 50));
 		Enemygreen[i].setCollisionBox(0, 0, 60, 50);
-
+		enemygreenhp = 2;
 
 	}
 
@@ -35,7 +36,7 @@ EnemyManager::EnemyManager()
 		Enemypurple[i].setTexture(&Enemypurpletexture);
 		Enemypurple[i].setSize(sf::Vector2f(60, 50));
 		Enemypurple[i].setCollisionBox(0, 0, 60, 50);
-
+		enemypurplehp = 3;
 	}
 }
 

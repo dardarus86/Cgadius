@@ -34,5 +34,7 @@ private:
 	sf::Texture Enemypurpletexture;
 	WallManager* wallManager;
 
-
+	int enemygreyhp;
+	int enemygreenhp;
+	int enemypurplehp;
 };

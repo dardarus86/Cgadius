@@ -46,7 +46,7 @@ void WallManager::spawn()
 	walls1[3].setPosition(1210, 571);
 	walls2[0].setPosition(1480, 105);
 	walls2[1].setPosition(2065, 105);
-	walls2[2].setPosition(1480, 646);
+	walls2[2].setPosition(1475, 646);
 	walls2[3].setPosition(2065, 646);
 	walls2[4].setPosition(3460, 250);
 	walls2[5].setPosition(3460, 400);

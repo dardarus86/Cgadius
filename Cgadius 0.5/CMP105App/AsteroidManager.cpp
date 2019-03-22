@@ -5,7 +5,7 @@ AsteroidManager::AsteroidManager()
 
 	texture.loadFromFile("gfx/asteroid.png");
 
-	for (int i = 0; i < 15; i++)
+	for (int i = 0; i < 20; i++)
 	{
 		asteroids.push_back(Asteroid());
 		asteroids[i].setAlive(false);
@@ -66,8 +66,8 @@ void AsteroidManager::update(float dt)
 					if (Collision::checkBoundingBox(&asteroids[i], &asteroids[j]))
 					{
 						asteroids[i].setVelocity(asteroids[i].getVelocity().x * (-1), asteroids[i].getVelocity().y);
-						asteroids[i].setAlive(false);
-						asteroids[i].setPosition(0, -100);
+						//asteroids[i].setAlive(false);
+						//asteroids[i].setPosition(0, -100);
 						asteroids[j].setVelocity(asteroids[j].getVelocity().x * (-1), asteroids[j].getVelocity().y);
 
 					}
@@ -118,6 +118,26 @@ void AsteroidManager::update(float dt)
 //find a dead ball, make alive, move to spawn point, give random velocity
 void AsteroidManager::spawn()
 {
+	asteroids[0].setPosition(1480, 220);
+	asteroids[1].setPosition(1480, 280);
+	asteroids[2].setPosition(1480, 350);
+	asteroids[3].setPosition(1480, 410);
+	asteroids[4].setPosition(1480, 550);
+	asteroids[5].setPosition(1680, 230);
+	asteroids[6].setPosition(1680, 295);
+	asteroids[7].setPosition(1680, 360);
+	asteroids[8].setPosition(1680, 420);
+	asteroids[9].setPosition(1680, 510);
+	asteroids[10].setPosition(2670, 220);
+	asteroids[11].setPosition(2670, 280);
+	asteroids[12].setPosition(2670, 350);
+	asteroids[13].setPosition(2670, 410);
+	asteroids[14].setPosition(2670, 550);
+	asteroids[15].setPosition(2770, 230);
+	asteroids[16].setPosition(2770, 295);
+	asteroids[17].setPosition(2770, 360);
+	asteroids[18].setPosition(2770, 420);
+	asteroids[19].setPosition(2770, 510);
 
 
 	for (int i = 0; i < asteroids.size(); i++)
@@ -125,8 +145,8 @@ void AsteroidManager::spawn()
 		if (!asteroids[i].isAlive())
 		{
 			asteroids[i].setAlive(true);
-			asteroids[i].setVelocity(rand() % 10 - 5, rand() % 10 - 5);
-			asteroids[i].setPosition(1500 + (rand() % 500 - 250), 421 + (rand() % 370 - 200));
+			asteroids[i].setVelocity(rand() % 2 - 0.5, rand() % 2 - 0.5);
+			
 			return;
 		}
 	}

@@ -23,6 +23,32 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 	player.setSize(sf::Vector2f(60, 60));
 	player.setPosition(50, 350);
 
+	//text
+	if (!font.loadFromFile("font/andromeda.ttf"))
+	{
+		std::cout << "Error loading font\n";
+	}
+
+	score.setFont(font);
+	score.setString("Score 0000");
+	score.setCharacterSize(50);
+	score.setFillColor(sf::Color::Red);
+	score.setPosition(150, 20);
+
+	lives.setFont(font);
+	lives.setString("Lives 3");
+	lives.setCharacterSize(50);
+	lives.setFillColor(sf::Color::Red);
+	lives.setPosition(500, 20);
+
+	time.setFont(font);
+	time.setString("Time 299");
+	time.setCharacterSize(50);
+	time.setFillColor(sf::Color::Red);
+	time.setPosition(800, 20);
+
+
+
 	for (int i = 0; i < 99; i++)
 	{
 		enemyManager.spawn();
@@ -35,7 +61,7 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 
 	}
 
-	for (int i = 0; i < 15; i++)
+	for (int i = 0; i < 20; i++)
 	{
 		asteroidManager.spawn();
 
@@ -106,6 +132,7 @@ void Level::update(float dt)
 void Level::render()
 {
 	beginDraw();
+	
 	window->setView(view1);
 	window->draw(background);
 	wallManager.render(window);
@@ -113,6 +140,9 @@ void Level::render()
 	enemyManager.render(window);
 	window->draw(*player.getBullet());
 	window->draw(player);
+	window->draw(score);
+	window->draw(lives);
+	window->draw(time);
 	endDraw();
 
 }
