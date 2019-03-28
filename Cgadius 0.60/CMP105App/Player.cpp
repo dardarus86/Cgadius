@@ -97,7 +97,7 @@ void Player::handleInput(float dt)
 		move(velocity*dt);
 	}
 
-	if (input->isKeyDown(sf::Keyboard::Numpad0))
+	if (input->isKeyDown(sf::Keyboard::Numpad0) || input->isKeyDown(sf::Keyboard::Numpad1) || input->isKeyDown(sf::Keyboard::Numpad2))
 	{
 		
 		bullet.setPosition(getPosition().x + 50, getPosition().y + 26);

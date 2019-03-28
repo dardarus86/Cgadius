@@ -9,7 +9,19 @@ Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* state)
 	player.setInput(input);
 	view1.reset(sf::FloatRect(0.f, 0.f, 1200.f, 800.f));
 	scoreview.setViewport(sf::FloatRect(0.0f, 0.0f,1.0f, 1.0f));
-
+	audioManager.addMusic("sfx/level.ogg", "level");
+	audioManager.addMusic("sfx/boss.ogg", "boss");
+	audioManager.addSound("sfx/death.wav", "death");
+	audioManager.addSound("sfx/enemydeath.wav", "enemydeath");
+	audioManager.addSound("sfx/enemyfire.wav", "enemyfire");
+	audioManager.addSound("sfx/enter.wav", "enter");
+	audioManager.addSound("sfx/explosion.wav", "explosion");
+	audioManager.addSound("sfx/pauldeath.wav", "pauldeath");
+	audioManager.addSound("sfx/paulhit.wav", "paulhit");
+	audioManager.addSound("sfx/shot.wav", "shot");
+	audioManager.addSound("sfx/shot2.wav", "shot2");
+	audioManager.addSound("sfx/shot3.ogg", "shot3");
+	audioManager.addSound("sfx/warning.wav", "warning");
 
 
 	
@@ -86,6 +98,7 @@ Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* state)
 
 	enemyManager.setWallManager(&wallManager);
 	player.setPWallManager(&wallManager);
+	
 
 
 }
@@ -97,9 +110,53 @@ Level::~Level()
 // handle user input
 void Level::handleInput(float dt)
 {
+		player.handleInput(dt);
 
-	player.handleInput(dt);
-	
+	if (input->isKeyDown(sf::Keyboard::Numpad0))
+	{
+		input->setKeyUp(sf::Keyboard::Numpad0);
+		audioManager.playSoundbyName("shot");
+	}
+	if (input->isKeyDown(sf::Keyboard::Numpad1))
+	{
+		input->setKeyUp(sf::Keyboard::Numpad1);
+		audioManager.playSoundbyName("shot2");
+	}
+	if (input->isKeyDown(sf::Keyboard::Numpad2))
+	{
+		input->setKeyUp(sf::Keyboard::Numpad2);
+		audioManager.playSoundbyName("shot3");
+	}
+	if (input->isKeyDown(sf::Keyboard::Numpad3))
+	{
+		input->setKeyUp(sf::Keyboard::Numpad3);
+		audioManager.playSoundbyName("death");
+	}
+	if (input->isKeyDown(sf::Keyboard::Numpad4))
+	{
+		input->setKeyUp(sf::Keyboard::Numpad4);
+		audioManager.playSoundbyName("enemydeath");
+	}
+	if (input->isKeyDown(sf::Keyboard::Numpad5))
+	{
+		input->setKeyUp(sf::Keyboard::Numpad5);
+		audioManager.playSoundbyName("explosion");
+	}
+	if (input->isKeyDown(sf::Keyboard::Numpad6))
+	{
+		input->setKeyUp(sf::Keyboard::Numpad6);
+		audioManager.playSoundbyName("pauldeath");
+	}
+	if (input->isKeyDown(sf::Keyboard::Numpad7))
+	{
+		input->setKeyUp(sf::Keyboard::Numpad7);
+		audioManager.playSoundbyName("paulhit");
+	}
+	if (input->isKeyDown(sf::Keyboard::Numpad8))
+	{
+		input->setKeyUp(sf::Keyboard::Numpad8);
+		audioManager.playSoundbyName("warning");
+	}
 	if (input->isKeyDown(sf::Keyboard::Right) && input->isKeyDown(sf::Keyboard::Space))
 	{
 		view1.move(dt + 6.0f, 0);
@@ -119,7 +176,7 @@ void Level::handleInput(float dt)
 // Update game objects
 void Level::update(float dt)
 {
-	if (player.getPosition().x < 4950)
+	if (audioManager.getMusic()->getStatus() == sf::SoundSource::Stopped)
 	{
 		audioManager.playMusicbyName("level");
 	}
