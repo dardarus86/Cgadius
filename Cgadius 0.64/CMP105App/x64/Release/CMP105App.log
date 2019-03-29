@@ -1,0 +1,15 @@
+﻿  Player.cpp
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.60\cmp105app\player.cpp(124): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.60\cmp105app\player.cpp(125): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.60\cmp105app\player.cpp(126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.60\cmp105app\player.cpp(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.60\cmp105app\player.cpp(183): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.60\cmp105app\player.cpp(184): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.60\cmp105app\player.cpp(185): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.60\cmp105app\player.cpp(186): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  1 of 669 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CMP105App.vcxproj -> C:\Users\Jamie Haddow\Documents\GitHub\Cgadius\Cgadius 0.60\x64\Release\CMP105App.exe

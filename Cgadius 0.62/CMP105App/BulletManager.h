@@ -15,7 +15,6 @@ public:
 	void update(float dt);
 	void deathCheck();
 	void render(sf::RenderWindow* window);
-
 	std::vector<Bullet>& getBullets() { return bullet; }
 
 

@@ -1,0 +1,22 @@
+collission enemy with player
+collission player with enemy
+bullets
+	bullet vector to spawn bullets in player
+enemy bullets
+collision bullets with enemy
+collision bullets with player
+correct asteroid/asteroid collisions
+enemy hp
+player hp
+add ground enemies
+score
+credit screen
+
+boss
+
+
+EXTRA TIME
+smaller ship on menu
+change wall colour
+give boss extra attacks
+paul goku hair

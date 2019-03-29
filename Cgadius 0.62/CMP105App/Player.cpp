@@ -97,14 +97,13 @@ void Player::handleInput(float dt)
 		move(velocity*dt);
 	}
 
-	if (input->isKeyDown(sf::Keyboard::Numpad0))
+	if (input->isKeyDown(sf::Keyboard::Space))
 	{
-		input->setKeyUp(sf::Keyboard::Numpad0);
-		for (int i = 0; i < 10; i++)
-		{
-			bulletManager->spawn();
-
-		}
+		input->setKeyUp(sf::Keyboard::Space);
+		bulletManager->setVelocity(1000, 0);
+		bulletManager->setPosition(getPosition().x, getPosition().y);
+		std::cout << bulletManager->getPosition().x << "   " << bulletManager->getPosition().y << std::endl;
+		bulletManager->spawn();
 		
 		return;
 		
@@ -114,7 +113,7 @@ void Player::handleInput(float dt)
 
 void Player::update(float dt)
 {
-	
+	bulletManager->setPosition(getPosition().x + 50, getPosition().y + 26);
 	currentAnimation->animate(dt);
 	setTextureRect(currentAnimation->getCurrentFrame());
 	// Check for collision with Left of window

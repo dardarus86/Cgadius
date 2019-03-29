@@ -28,9 +28,8 @@ void BulletManager::spawn()
 		if (!bullet[i].isAlive())
 		{
 			bullet[i].setAlive(true);
-			bullet[i].setVelocity(1000,0);
+			bullet[i].setVelocity(100,0);
 			bullet[i].setPosition(100, 400);
-			move(velocity);
 			return;
 				
 		}
@@ -44,25 +43,29 @@ void BulletManager::update(float dt)
 		if (bullet[i].isAlive())
 		{
 			bullet[i].update(dt);
+			
 		}
 	}
 	deathCheck();
-	
 }
+
+
+
 void BulletManager::deathCheck()
 {
-	
 	for (int i = 0; i < bullet.size(); i++)
 	{
 		if (bullet[i].isAlive())
 		{
-			if (bullet[i].getPosition().x > 700);
+			if (bullet[i].getPosition().x >= 700)
 			{
 				bullet[i].setAlive(false);
 			}
+		
 
 		}
 	}
+
 }
 
 

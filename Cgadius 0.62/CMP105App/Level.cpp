@@ -200,7 +200,7 @@ void Level::update(float dt)
 	enemyManager.update(dt);
 	asteroidManager.update(dt);
 	player.update(dt);
-	bulletManager.update(dt);
+ 	bulletManager.update(dt);
 	
 
 	//view move

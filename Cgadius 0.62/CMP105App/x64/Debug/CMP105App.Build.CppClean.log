@@ -1,32 +1,34 @@
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\vc141.pdb
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\vc141.idb
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\wallmanager.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\wall.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\player.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\main.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\level.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\vector.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\gameobject.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\input.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\collision.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\animation.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\enemymanager.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\enemy.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\bulletmanager.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\bullet.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\asteroidmanager.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\asteroid.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\menu.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\gamestate.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\soundobject.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\musicobject.obj
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\x64\debug\cmp105app.exe
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\x64\debug\cmp105app.ilk
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\x64\debug\cmp105app.pdb
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\asteroid.obj.enc
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\cmp105app.tlog\cl.command.1.tlog
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\cmp105app.tlog\cl.read.1.tlog
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\cmp105app.tlog\cl.write.1.tlog
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\cmp105app.tlog\link.command.1.tlog
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\cmp105app.tlog\link.read.1.tlog
-\\stuhome\homedrive2$\0705082\cmp105\cgadius 0.59\cmp105app\x64\debug\cmp105app.tlog\link.write.1.tlog
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\vc141.pdb
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\vc141.idb
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\wall.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\player.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\menu.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\main.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\level.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\vector.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\soundobject.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\musicobject.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\gameobject.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\input.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\gamestate.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\collision.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\audiomanager.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\animation.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\enemymanager.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\enemy.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\bulletmanager.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\bullet.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\asteroidmanager.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\asteroid.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\wallmanager.obj
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\x64\debug\cmp105app.exe
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\x64\debug\cmp105app.ilk
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\x64\debug\cmp105app.pdb
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\menu.obj.enc
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\player.new.obj.enc
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\cmp105app.tlog\cl.command.1.tlog
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\cmp105app.tlog\cl.read.1.tlog
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\cmp105app.tlog\cl.write.1.tlog
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\cmp105app.tlog\link.command.1.tlog
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\cmp105app.tlog\link.read.1.tlog
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\x64\debug\cmp105app.tlog\link.write.1.tlog
