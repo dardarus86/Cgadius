@@ -16,10 +16,13 @@ public:
 
 
 	void spawn(float x, float y);
+	float getPlayerPosX();
+	void setPlayerPosX(float x);
 	void update(const float& dt);
-	void deathCheck(sf::RenderWindow* window1);
+	void deathCheck();
 	void render(sf::RenderWindow* window);
 	std::vector<Bullet>& getBullets() { return bullet; }
+	float PlayerX;
 
 
 private:

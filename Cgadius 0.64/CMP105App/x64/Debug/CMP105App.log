@@ -2,13 +2,13 @@
   Level.cpp
   Main.cpp
   Player.cpp
-c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(129): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(130): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(186): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(187): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(188): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(189): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(132): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(133): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(134): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(135): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(191): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(192): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(193): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\jamie haddow\documents\github\cgadius\cgadius 0.64\cmp105app\player.cpp(194): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   Generating Code...
   CMP105App.vcxproj -> C:\Users\Jamie Haddow\Documents\GitHub\Cgadius\Cgadius 0.64\x64\Debug\CMP105App.exe

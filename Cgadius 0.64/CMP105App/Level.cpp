@@ -42,7 +42,7 @@ Level::Level(sf::RenderWindow* hwnd, Input* in, GameState* state)
 
 	player.setTexture(&playertexture);
 	player.setSize(sf::Vector2f(60, 60));
-	player.setPosition(50, 350);
+	player.setPosition(300, 350);
 
 	//text
 	if (!font.loadFromFile("font/andromeda.ttf"))

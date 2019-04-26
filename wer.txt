@@ -1,0 +1,52 @@
+if (Collision::checkBoundingBox(this, &wall))
+		{
+			
+			playerCentre.x = getPosition().x + (getSize().x * 0.5);
+			playerCentre.y = getPosition().y + (getSize().y * 0.5);
+			wallCentre.x = wall.getPosition().x + (wall.getSize().x * 0.5);
+			wallCentre.y = wall.getPosition().y + (wall.getSize().y * 0.5);
+
+			//int direction;
+			float tempX, tempY;
+			// 1- left 2- right 3- top 4- bottom
+
+			tempX = abs(wallCentre.x - playerCentre.x);
+			tempY = abs(wallCentre.y - playerCentre.y);
+
+			if (tempX < 0)
+			{
+				tempX *= -1;
+			}
+
+			if (tempY < 0)
+			{
+				tempY *= -1;
+			}
+
+			if (tempX > tempY)
+			{
+				if (wallCentre.x > playerCentre.x)
+				{
+					velocity.x = 0;
+					setPosition(wall.getPosition().x - getSize().x, getPosition().y);
+				}
+				//right
+				if (wallCentre.x < playerCentre.x)
+				{
+					velocity.x = 0;
+					setPosition(wall.getPosition().x + wall.getSize().x, getPosition().y);
+				}
+			}
+			else
+			{
+				if (wallCentre.y > playerCentre.y)
+				{
+					velocity.y = 0;
+					setPosition(getPosition().x, wall.getPosition().y - getSize().y);
+				}
+				else
+				{
+					velocity.y = 0;
+					setPosition(getPosition().x, wall.getPosition().y + wall.getSize().y);
+				}
+			}

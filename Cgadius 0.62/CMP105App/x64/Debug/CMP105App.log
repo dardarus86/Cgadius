@@ -3,7 +3,6 @@
 c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\asteroidmanager.cpp(150): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Bullet.cpp
   BulletManager.cpp
-c:\users\jamie haddow\documents\github\cgadius\cgadius 0.62\cmp105app\bulletmanager.cpp(60): warning C4390: ';': empty controlled statement found; is this the intent?
   Enemy.cpp
   EnemyManager.cpp
   Animation.cpp
